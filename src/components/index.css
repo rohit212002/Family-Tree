@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.topp {
+    margin-top: 10px;
+}
+
+.char-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dataInput {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10%;
+}
+
+.Tags {
+    font-weight: 500;
+    padding-bottom: 0px;
+}
+
+.Boxes {
+    padding-top: 0px;
+    margin-bottom: 10px;
+}
+
+.radio {
+    padding: 6px 16px;
+}
+
+.character-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+}
+
+.Myself {
+    border: 3px solid rgb(29, 27, 27);
+    padding: auto;
+    margin: auto;
+    margin-bottom: 3%;
+    width: 450px;
+    padding: 20px;
+}
+
+.Myself:hover {
+    animation: running-gradient 60s ease infinite;
+    background-image: radial-gradient(circle, rgb(250, 239, 239), rgb(242, 223, 242), rgb(218, 218, 242), rgb(217, 242, 217), rgb(242, 242, 217));
+    background-size: 400% 100%;
+    background-position: 0 0;
+}
+
+
+.toBorder {
+    border: 5px solid rgb(80, 73, 73);
+    border-radius: 10px;
+    box-shadow: 7px 9px rgb(243, 200, 47);
+}
+
+.toBorder:hover {
+    animation: running-gradient 3s ease infinite;
+    background-image: linear-gradient(to right, red, blue, green, yellow, purple);
+    background-size: 400% 100%;
+    background-position: 0 0;
+    border-color: transparent;
+    box-shadow: none;
+}
+
+@keyframes running-gradient {
+    0% {
+        background-position: 0 0;
+    }
+
+    25% {
+        background-position: -100% 0;
+    }
+
+    50% {
+        background-position: -200% 0;
+    }
+
+    75% {
+        background-position: -300% 0;
+    }
+
+    100% {
+        background-position: -400% 0;
+    }
+}
+
+.character-name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4%;
+    margin-bottom: 1%;
+    font-size: xx-large;
+}
+
+.childrens {
+    color: rgb(45, 45, 210);
+    display: inline;
+}
+
+.childrens:hover {
+    color: rgb(36, 187, 177);
+    cursor: grabbing;
+    font-size: 17px;
+}
+
+.character-relation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 110%;
+    margin-top: 0px;
+    margin-bottom: 6%;
+}
+
+.Character-details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3%;
+    font-weight: 600;
+    border-top: 10px solid rgb(50, 33, 90);
+    border-top-right-radius: 100px;
+    border-top-left-radius: 60px;
+}
+
+.offsprings {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+
+    margin-top: 4%;
+    font-weight: 400;
+}
+
+
+
+.addChild {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.addChildbtn {
+    padding: 7px;
+    font-weight: 600;
+
+}
+
+
+
+a {
+    text-decoration: none;
+}
